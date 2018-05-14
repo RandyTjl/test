@@ -14,10 +14,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Tang\\": "src/"
+      "Tang\\": "tang/src/"
     },
     "classmap": [
-      "src/"
+      "tang/src/"
     ]
   }
 }
