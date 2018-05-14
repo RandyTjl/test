@@ -14,7 +14,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tang\\": "tang/src/"
+      "Tang\\": "src/"
     },
     "classmap": [
       "src/"
