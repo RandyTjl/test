@@ -1,0 +1,23 @@
+{
+  "name": "tang",
+  "description": "this is a test of tang",
+  "license": "MIT",
+  "keywords": ["test"],
+  "authors": [
+    {
+      "name": "tjl",
+      "email": "3268429734@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tang\\": "tang/src/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  }
+}
