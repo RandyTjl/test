@@ -1,13 +1,10 @@
 <?php
-namespace Tang;
+namespace Tjl\Test\Facades;
 use Illuminate\Support\Facades\Facade;
-
-class Foo extends Facade
+class TestFacades extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'foo';
+        return 'test';
     }
 }
-
-?>
