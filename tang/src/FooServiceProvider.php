@@ -18,7 +18,7 @@ class FooServiceProvider extends ServiceProvider
         $this->setupRoutes($this->app->router);
         // this for config
         $this->publishes([
-            __DIR__.'../config/test.php' => config_path('test.php'),
+            __DIR__.'/../config/test.php' => config_path('test.php'),
         ]);
 
     }
