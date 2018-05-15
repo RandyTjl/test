@@ -14,7 +14,10 @@
   },
   "autoload": {
     "psr-4": {
-      "Tang\\": "tang/src/"
+      "Tang\\": [
+        "tang/src/",
+        "tang/config"
+      ]
     },
     "classmap": [
       "tang/src/",

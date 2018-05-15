@@ -6,8 +6,9 @@ use Foo;
 
 class TestController extends Controller{
     public function test(){
+        echo 1;
         var_dump(Config::get("test.message"));
-        return Foo::index();
+        //return Foo::index();
     }
 
 }
