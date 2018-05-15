@@ -2,5 +2,5 @@
 
 
 Route::group([],function () {
-    Route::get('test', 'tang\TestController@index');
+    Route::get('test', 'TestController@index');
 });
