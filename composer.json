@@ -17,7 +17,8 @@
       "Tang\\": "tang/src/"
     },
     "classmap": [
-      "tang/src/"
+      "tang/src/",
+      "tang/config"
     ]
   }
 }
